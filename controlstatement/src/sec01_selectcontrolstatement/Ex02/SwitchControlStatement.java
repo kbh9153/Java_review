@@ -1,4 +1,4 @@
-package sec01_controlstatement.Ex02;
+package sec01_selectcontrolstatement.Ex02;
 
 public class SwitchControlStatement {
 

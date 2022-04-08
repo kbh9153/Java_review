@@ -1,4 +1,4 @@
-package sec01_controlstatement.Ex01;
+package sec01_selectcontrolstatement.Ex01;
 
 public class IfControlStatement {
 
