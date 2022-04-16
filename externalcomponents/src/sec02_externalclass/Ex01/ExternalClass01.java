@@ -12,7 +12,7 @@ class A {
 }
 
 public class ExternalClass01 {	// public이 붙은 클래스명 = java 파일명 
-
+ 
 	public static void main(String[] args) {
 		A a = new A();
 		
