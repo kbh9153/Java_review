@@ -1,9 +1,16 @@
-package InheritancePolymorphism.Ex02;
+package sec01_InheritancePolymorphism.Ex02;
 
 // 상속관계 만들기
-class A {}
-class B extends A {}
-class C extends B {}
+class A {
+	int a = 1;
+}
+class B extends A {
+	int c = 3;
+}
+
+class C extends B {
+	int b = 2;
+}
 class D extends B {}
 
 public class Polymorphism {
@@ -15,6 +22,7 @@ public class Polymorphism {
 		A a3 = new C();	// C는 A이다. 가능
 		A a4 = new D();	// D는 A이다. 가능
 		
+		System.out.println(a3.a);
 		// #2. B 타입의 다형적 표현
 //		B b1 = new A();	// A는 B이다. 불가능 (A는 B의 부모이기 때문에 상속이 불가능)
 		B b2 = new B();	// B는 B이다.	가능
