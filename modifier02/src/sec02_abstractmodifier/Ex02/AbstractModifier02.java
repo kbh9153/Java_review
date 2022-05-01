@@ -18,7 +18,7 @@ class Dog extends Animal {
 		System.out.println("멍멍");
 	}
 }
-
+ 
 public class AbstractModifier02 {
 
 	public static void main(String[] args) {
