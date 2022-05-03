@@ -29,10 +29,11 @@ class A {
 public class CreateObjectAndAccessMember {
 
 	public static void main(String[] args) {
-		// #1. static inner class의 객체 생성ㄴ
+		// #1. static inner class의 객체 생성
 		A.B b = new A.B();
 		
 		// #2. 메소드 호출
 		b.bcd();
+		A.method2();
 	}
 }
