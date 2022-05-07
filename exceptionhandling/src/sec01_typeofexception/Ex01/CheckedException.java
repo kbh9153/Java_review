@@ -27,8 +27,8 @@ public class CheckedException {
 //		FileInputStream fis = new FileInputStream("text.txt");
 		
 		// #5. CloneNotSuppetedException
-		A a1 = new A();
-		A a2 = (A)a1.clone();
+//		A a1 = new A();
+//		A a2 = (A)a1.clone();
 		
 	}
 }
