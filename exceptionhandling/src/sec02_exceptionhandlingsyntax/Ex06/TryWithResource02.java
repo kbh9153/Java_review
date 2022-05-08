@@ -15,10 +15,10 @@ class A implements AutoCloseable {
 		if (resource != null) {
 			resource = null;
 			System.out.println("리소스가 해제되었습니다.");
-		}
+		} 
 	}
 }
-
+ 
 public class TryWithResource02 {
 	
 	public static void main(String[] args) {
