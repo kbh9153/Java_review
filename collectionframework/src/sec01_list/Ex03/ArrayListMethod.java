@@ -1,4 +1,4 @@
-package sec03_list.Ex03;
+package sec01_list.Ex03;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package sec04_list.Ex04;
+package sec01_list.Ex04;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,14 +23,14 @@ public class VectorMethod {
 		System.out.println(vector1);	// [3, 6, 4, 5]
 		
 		// #3. addAll (또 다른 List 객체)
-		List<Integer> vector2 = new ArrayList<>();
+		List<Integer> vector2 = new Vector<>();
 		vector2.add(1);
 		vector2.add(2);
 		vector2.addAll(vector1);	// 마지막 우측에 vector1의 값들을 추가
 		System.out.println(vector2);	// [1, 2, 3, 6, 4, 5]
 		
 		// #4. addALL (int index, E element)
-		List<Integer> vector3 = new ArrayList<>();
+		List<Integer> vector3 = new Vector<>();
 		vector3.add(1);
 		vector3.add(2);	
 		vector3.addAll(1, vector3);	// 1번 자리에 vector3 본인의 값들을 추가. 기존 값들은 우측으로 밀려남
